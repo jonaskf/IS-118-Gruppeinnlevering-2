@@ -2,6 +2,8 @@
 poeng = 0
 
 #Definisjoner
+
+# Laget en funksjon som legger til en fortsette knapp for å dele opp historien mellom valg
 def fortsette():
     x = 1
 
@@ -11,8 +13,7 @@ def fortsette():
             break
 
 
-# Laget en funksjon som legger til en fortsette knapp for å dele opp historien mellom valg
-
+#Laget en funksjon for å velge svar, og for å se om svaret er gyldig. Den returnerer også svaret slik at verdien blir lagret og poengsummen kan regnes ut.
 def gyldig_svar(spørsmål, svar_alternativer):
     svar = int(input(spørsmål))
 
@@ -21,7 +22,7 @@ def gyldig_svar(spørsmål, svar_alternativer):
      svar = int(input(spørsmål))
 
     return svar 
-#Laget en funksjon for å velge svar, og for å se om svaret er gyldig. Den returnerer også svaret slik at verdien blir lagret og poengsummen kan regnes ut.
+
 
 #Starten på spillet
 print ("IS-118 Tekstspill\n")
