@@ -8,8 +8,9 @@ def fortsette():
     while x != "":
         x = input("\nTrykk på Enter for å fortsette: \n")
         if x == "":
-
             break
+
+
 # Laget en funksjon som legger til en fortsette knapp for å dele opp historien mellom valg
 
 def gyldig_svar(spørsmål, svar_alternativer):
