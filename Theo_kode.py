@@ -6,7 +6,6 @@ poeng = 0
 # Laget en funksjon som legger til en fortsette knapp for å dele opp historien mellom valg
 def fortsette():
     x = 1
-
     while x != "":
         x = input("\nTrykk på Enter for å fortsette: \n")
         if x == "":
