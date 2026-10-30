@@ -25,6 +25,7 @@ elif valg1 == "3":
 # Valgte å legge in en liten "warning" for hvis man ikke skriver tallene som korisponderer med koden. 
 else:
     print ("ERROR IKKE PRØV DEG, DETTE ER SERIØST ERROR")
+    exit()
 
 #Her er delen med Hamdi og Hallgeir, det er det samme oppsettet som Elias og Silje
 
@@ -48,6 +49,7 @@ elif valg2 == "3":
     resultat2 = "bra"
 else:
     print ("ERROR IKKE PRØV DEG, DETTE ER SERIØST ERROR")
+    exit()
 
 #Teambuilding delen, samme oppsett som de to over fungerer likt
 print ("Erling må holde oppe motivasjonen i gruppa etter at valgene for å løse konfliktene er tatt")
@@ -64,12 +66,13 @@ elif valg3 == "2":
     resultat3 = "bra"
 else:
     print ("ERROR IKKE PRØV DEG, DETTE ER SERIØST ERROR")
+    exit()
 
 #konklusjonen av hele opplegget. gjorde slik at hvis du velger de to korrekte gode svarene så får du en god slutt, hvis du felger to dårlige får du en dårlig, og hvis du valgte noe i mellom fikk du en helt ok slutt, dvs hvis du velger en god men en dårlig, eller en ok og en god, en god og en og, osv.
 print ("Nå som du har valgt noen svar så får dette noen konsekvenser")
 if resultat1 == "bra" and resultat2 == "bra" and resultat3 == "bra":
     print ("DU HAR FÅTT DEN GODE SLUTTEN. Teamet klarer å løse konfliktene og de beveger seg til norming fasen")
-elif resultat1 == "dårlig" and resultat2 == "dårlig" or resultat3 != "dårlig":
+elif resultat1 == "dårlig" and resultat2 == "dårlig":
     print ("DU HAR FÅTT DEN DÅRLIGE SLUTTEN. Teamet er utsatt for mange uenigheter og konflikter, teamer faller fra hverandre og de har ikke produsert prototypen til tide")
 else:
     print("DU HAR FÅTT EN OK SLUTT. Konfliktene blir løst delvis, men det er fremdeles litt dårlig stemning mellom teammedlemmene.")
